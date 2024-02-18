@@ -21,8 +21,3 @@ def errormsg_function(errormsg , system_error: sys):
     logger.info('Exception file has been raised due to error...!')
     return errormsg
 
-
-try:
-    print(45/0)
-except Exception as e:
-    raise CustomException(e, sys)
