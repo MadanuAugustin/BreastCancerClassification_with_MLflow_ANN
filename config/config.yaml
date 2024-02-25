@@ -9,3 +9,15 @@ data_ingestion:
   source_URL : 'https://github.com/MadanuAugustin/BreastCancerClassification_with_MLflow_ANN/raw/main/Notebook/archive%20(2).zip'
   local_data_file : artifacts/data_ingestion/raw-data.zip
   unzip_dir : artifacts/data_ingestion
+
+
+
+data_validation:
+  root_dir : artifacts//data_validation
+  unzip_data_dir : artifacts//data_ingestion//brca.csv
+  STATUS_FILE : artifacts//data_validation//status.txt
+
+
+data_transformation:
+  root_dir : artifacts//data_transformation
+  data_path : artifacts//data_ingestion//brca.csv

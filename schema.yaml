@@ -1,4 +1,40 @@
 
 
 
-key : val
+COLUMNS:
+  Unnamed  :      int64  
+  x.radius_mean      :   float64
+  x.texture_mean       :    float64
+  x.perimeter_mean     :   float64
+  x.area_mean         :   float64
+  x.smoothness_mean    :   float64
+  x.compactness_mean   :    float64
+  x.concavity_mean     :   float64
+  x.concave_pts_mean   :   float64
+  x.symmetry_mean      :   float64
+  x.fractal_dim_mean   :    float64
+  x.radius_se         :   float64
+  x.texture_se        :   float64
+  x.perimeter_se       :    float64
+  x.area_se           :  float64
+  x.smoothness_se      :  float64
+  x.compactness_se     :    float64
+  x.concavity_se      :   float64
+  x.concave_pts_se    :   float64
+  x.symmetry_se         :  float64
+  x.fractal_dim_se     :    float64
+  x.radius_worst       :    float64
+  x.texture_worst    :    float64
+  x.perimeter_worst    :   float64
+  x.area_worst         :    float64
+  x.smoothness_worst   :   float64
+  x.compactness_worst  :   float64
+  x.concavity_worst    :   float64
+  x.concave_pts_worst  :   float64
+  x.symmetry_worst     :   float64
+  x.fractal_dim_worst  :    float64
+  y      :      object
+
+
+TARGET_COLUMN:
+  name : y
